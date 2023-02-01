@@ -1,0 +1,319 @@
+.pai2{
+    position: relative;
+width: 100%;
+height: 100%;
+
+
+z-index: 100;
+
+}
+.padrao{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.padrao9{
+    display: flex;
+    margin-top: 30px;
+  
+    
+}
+.subMenu{
+    background-color: rgba(120,120,120,0.3);
+    display: flex;
+    padding-top: 7px;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.fundo{
+    display: flex;
+    padding-left: 40px;
+}
+@font-face {
+    font-family: althertechF;
+    src: url(ChakraPetch-Bold.ttf);
+ }
+ .chart4{
+    height: 220px;
+    width: 300px;
+    right: 88px;
+    top: 5.5%;
+    opacity: 0.8;
+    z-index: 999;
+    position: absolute;
+ }
+ .master{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+
+
+ }
+ .bb{
+    color: white;
+    position: absolute;
+    left: -2px;
+    top: -20px;
+ }
+.span{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 22px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.porcentD{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgba(218, 218, 218, 0.96);
+
+    
+}
+.porcentP{
+    font-size: 24px;
+        color: rgb(235, 232, 232);
+}
+.porcentO{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    color: rgb(163, 163, 163);
+}
+.porcentO2{
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    color: rgb(163, 163, 163);
+}
+.porcentO3{
+    font-size: 12px;
+    margin-left: 4px;
+    color: rgb(163, 163, 163);
+}
+.opcoesM{
+    margin-top: 20px;
+    z-index: 400;
+    position: absolute;
+    margin-left: 40px;
+    line-height: 42px;
+    color: rgb(145, 145, 145);
+list-style: none;}
+.signal{
+    color: rgba(62, 255, 143, 0.733);
+    text-decoration: none;
+}
+.red{
+    width: 100px;
+    margin-left: 15px;
+    height: 30px;
+    padding-top: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: transparent;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: rgb(240 44 76);
+}
+.input01{
+    width: 120px;
+    height: 35px;
+    z-index: 9999;
+    padding-left: 10px;
+    border:black solid 2px;
+    margin-left: 20px;
+background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.input03{
+    width: 140px;
+    height: 35px;
+    z-index: 9999;
+    padding-left: 10px;
+    border:black solid 2px;
+    margin-left: 20px;
+background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.detail{
+    color: transparent;
+    font-size: 1px;
+    width: 10px;
+    height: 10px;
+    padding: 7px;
+    position: absolute;
+    top: 117px;
+    left: 88.6px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.titulo{
+    color: rgba(127, 170, 250, 0.753);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.botaoSave{
+    width: 140px;
+    position: relative;
+    height: 46px;
+    border-radius: 5px;
+    background-color: rgba(62, 255, 142, 0.603);
+    line-height: 10px;
+}
+
+
+.botaoSinal2{
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 36px;
+    border-radius: 5px;
+    line-height: 10px;
+}
+
+.botaoSinal{
+    width: 100px;
+    margin-left: 20px;
+    height: 36px;
+    border-radius: 5px;
+    line-height: 10px;
+}
+.opcoesN{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 300px;
+    z-index: 999;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 300px;
+    position: absolute;
+    color: rgb(145, 145, 145);
+list-style: none;}
+.borda8{
+    z-index: 2;
+    width: 90%;
+    height: 650px;
+    background-color: transparent;
+    font-family: althertechF;
+    position: absolute;
+
+    
+}
+.borda4{
+    width: 100%;
+    height: 320px;
+    margin-left: -8px;
+    background-color: transparent;
+    font-family: althertechF;
+    color: rgba(199, 199, 199, 0.96);
+    position: absolute;
+    z-index: 1000;
+    
+}
+
+.top1{
+    width: 94%;
+    position: absolute;
+    left: 3%;
+    height: 1px;
+    background-color: rgba(120,120,120,0.6);
+}
+.topL1{
+    width: 10px;
+    position: absolute;
+    left: 0%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.715);
+}
+.topR1{
+    width: 10px;
+    position: absolute;
+    right: 0%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.715);}
+.bottom1{
+    width: 94%;
+    position: absolute;
+    bottom: 0px;
+    left: 3%;
+    height:1px;
+    background-color: rgba(120,120,120,0.6);
+}
+.bottomL1{
+    width: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.715);}
+
+
+.bottomR1{
+    width: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.715);
+}
+
+.left1{
+    width: 1px;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    height: 90%;
+    top: 5%;
+    background-color: rgba(120,120,120,0.6);
+}
+.leftL1{
+    width: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    height: 10px;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0.715);}
+.leftR1{
+    width: 2px;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    height: 10px;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0.715);}
+.right1{
+    width: 1px;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    height: 90%;
+    top: 5%;
+    background-color: rgba(120,120,120,0.6);
+}
+.rightL1{
+    width: 2px;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.715);
+}
+.rightR1{
+    width: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.715);
+}

@@ -1,0 +1,52 @@
+.line{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 80%;
+  margin-right: 55px;
+  top: 0px;
+right: 0;
+  height: 180px;
+
+  padding-top: 100px;
+
+
+}
+.nave{
+  background-color: rgba(0, 0, 0, 0.432);
+  height: 50px;
+  position: absolute;
+  width: 100%;
+}
+.menu{
+  background-color: rgba(0, 0, 0, 0.432);
+  height: 95%;
+  top: 50px;
+  position: absolute;
+  width: 150px;
+}
+.line2{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 81.2%;
+  top: 180px;
+  right: 61px;
+  height: 180px;
+
+  margin-right: -53px;
+
+  padding-top: 100px;
+
+ 
+}
+
+.back{
+  background-image: url("../assets/background.jpg");
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  opacity: 1.0;
+  filter: brightness(0.5);
+  position: absolute;
+}

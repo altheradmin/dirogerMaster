@@ -1,0 +1,31 @@
+
+
+  
+  [class^="meter-"] {
+    fill: none;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 40% 20%;
+    
+  }
+
+  .meter-2 {
+    stroke: rgb(0,122,216);
+    stroke-dasharray: 360;
+    position: absolute;
+    stroke-dashoffset: 250;
+    animation: progress-2 .75s ease-out;
+  }
+
+  
+
+  @keyframes progress-2 {
+    from {
+      stroke-dashoffset: 360;
+    }
+    to {
+      stroke-dashoffset: 160;
+    }
+  }
+  
